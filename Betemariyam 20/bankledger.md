@@ -7,10 +7,9 @@ C compiler (e.g. gcc or clang)
 Standard C library only (no extra dependencies)
 
 Compile
-gcc -Wall -Wextra -O2 -o bank_ledger bank_ledger.c
-If you prefer clang:
+gcc bank_ledger.c -o bank_ledger
 
-clang -Wall -Wextra -O2 -o bank_ledger bank_ledger.c
+
 Run
 ./bank_ledger
 
